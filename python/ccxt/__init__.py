@@ -179,6 +179,7 @@ from ccxt.poloniex import poloniex                                    # noqa: F4
 from ccxt.poloniexfutures import poloniexfutures                      # noqa: F401
 from ccxt.probit import probit                                        # noqa: F401
 from ccxt.ramzinex import ramzinex                                    # noqa: F401
+from ccxt.sarrafex import sarrafex                                    # noqa: F401
 from ccxt.tabdeal import tabdeal                                      # noqa: F401
 from ccxt.timex import timex                                          # noqa: F401
 from ccxt.tokocrypto import tokocrypto                                # noqa: F401
@@ -295,6 +296,7 @@ exchanges = [
     'poloniexfutures',
     'probit',
     'ramzinex',
+    'sarrafex',
     'tabdeal',
     'timex',
     'tokocrypto',
