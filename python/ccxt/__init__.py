@@ -100,6 +100,7 @@ from ccxt.bitfinex2 import bitfinex2                                  # noqa: F4
 from ccxt.bitflyer import bitflyer                                    # noqa: F401
 from ccxt.bitget import bitget                                        # noqa: F401
 from ccxt.bithumb import bithumb                                      # noqa: F401
+from ccxt.bitir import bitir                                          # noqa: F401
 from ccxt.bitmart import bitmart                                      # noqa: F401
 from ccxt.bitmex import bitmex                                        # noqa: F401
 from ccxt.bitopro import bitopro                                      # noqa: F401
@@ -217,6 +218,7 @@ exchanges = [
     'bitflyer',
     'bitget',
     'bithumb',
+    'bitir',
     'bitmart',
     'bitmex',
     'bitopro',

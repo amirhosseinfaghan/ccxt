@@ -404,6 +404,7 @@ class Exchange {
         'bitflyer',
         'bitget',
         'bithumb',
+        'bitir',
         'bitmart',
         'bitmex',
         'bitopro',
