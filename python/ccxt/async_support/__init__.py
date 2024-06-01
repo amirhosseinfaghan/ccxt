@@ -117,6 +117,7 @@ from ccxt.async_support.currencycom import currencycom                          
 from ccxt.async_support.delta import delta                                      # noqa: F401
 from ccxt.async_support.deribit import deribit                                  # noqa: F401
 from ccxt.async_support.digifinex import digifinex                              # noqa: F401
+from ccxt.async_support.eterex import eterex                                    # noqa: F401
 from ccxt.async_support.exir import exir                                        # noqa: F401
 from ccxt.async_support.exmo import exmo                                        # noqa: F401
 from ccxt.async_support.fmfwio import fmfwio                                    # noqa: F401
@@ -235,6 +236,7 @@ exchanges = [
     'delta',
     'deribit',
     'digifinex',
+    'eterex',
     'exir',
     'exmo',
     'fmfwio',

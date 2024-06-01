@@ -441,6 +441,7 @@ class Exchange {
         'delta',
         'deribit',
         'digifinex',
+        'eterex',
         'exir',
         'exmo',
         'fmfwio',
