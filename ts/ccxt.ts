@@ -106,6 +106,7 @@ import digifinex from  './src/digifinex.js'
 import eterex from  './src/eterex.js'
 import exir from  './src/exir.js'
 import exmo from  './src/exmo.js'
+import farhadexchange from  './src/farhadexchange.js'
 import fmfwio from  './src/fmfwio.js'
 import gate from  './src/gate.js'
 import gateio from  './src/gateio.js'
@@ -293,6 +294,7 @@ const exchanges = {
     'eterex':                 eterex,
     'exir':                   exir,
     'exmo':                   exmo,
+    'farhadexchange':         farhadexchange,
     'fmfwio':                 fmfwio,
     'gate':                   gate,
     'gateio':                 gateio,
@@ -569,6 +571,7 @@ export {
     eterex,
     exir,
     exmo,
+    farhadexchange,
     fmfwio,
     gate,
     gateio,

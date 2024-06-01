@@ -444,6 +444,7 @@ class Exchange {
         'eterex',
         'exir',
         'exmo',
+        'farhadexchange',
         'fmfwio',
         'gate',
         'gateio',

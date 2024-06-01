@@ -72,6 +72,7 @@ var digifinex = require('./src/digifinex.js');
 var eterex = require('./src/eterex.js');
 var exir = require('./src/exir.js');
 var exmo = require('./src/exmo.js');
+var farhadexchange = require('./src/farhadexchange.js');
 var fmfwio = require('./src/fmfwio.js');
 var gate = require('./src/gate.js');
 var gateio = require('./src/gateio.js');
@@ -260,6 +261,7 @@ const exchanges = {
     'eterex': eterex,
     'exir': exir,
     'exmo': exmo,
+    'farhadexchange': farhadexchange,
     'fmfwio': fmfwio,
     'gate': gate,
     'gateio': gateio,
@@ -492,6 +494,7 @@ exports.digifinex = digifinex;
 exports.eterex = eterex;
 exports.exir = exir;
 exports.exmo = exmo;
+exports.farhadexchange = farhadexchange;
 exports.fmfwio = fmfwio;
 exports.gate = gate;
 exports.gateio = gateio;
