@@ -103,6 +103,7 @@ import currencycom from  './src/currencycom.js'
 import delta from  './src/delta.js'
 import deribit from  './src/deribit.js'
 import digifinex from  './src/digifinex.js'
+import eterex from  './src/eterex.js'
 import exir from  './src/exir.js'
 import exmo from  './src/exmo.js'
 import fmfwio from  './src/fmfwio.js'
@@ -289,6 +290,7 @@ const exchanges = {
     'delta':                  delta,
     'deribit':                deribit,
     'digifinex':              digifinex,
+    'eterex':                 eterex,
     'exir':                   exir,
     'exmo':                   exmo,
     'fmfwio':                 fmfwio,
@@ -564,6 +566,7 @@ export {
     delta,
     deribit,
     digifinex,
+    eterex,
     exir,
     exmo,
     fmfwio,
