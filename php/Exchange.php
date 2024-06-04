@@ -442,6 +442,7 @@ class Exchange {
         'deribit',
         'digifinex',
         'eterex',
+        'excoino',
         'exir',
         'exmo',
         'farhadexchange',

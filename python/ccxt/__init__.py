@@ -138,6 +138,7 @@ from ccxt.delta import delta                                          # noqa: F4
 from ccxt.deribit import deribit                                      # noqa: F401
 from ccxt.digifinex import digifinex                                  # noqa: F401
 from ccxt.eterex import eterex                                        # noqa: F401
+from ccxt.excoino import excoino                                      # noqa: F401
 from ccxt.exir import exir                                            # noqa: F401
 from ccxt.exmo import exmo                                            # noqa: F401
 from ccxt.farhadexchange import farhadexchange                        # noqa: F401
@@ -258,6 +259,7 @@ exchanges = [
     'deribit',
     'digifinex',
     'eterex',
+    'excoino',
     'exir',
     'exmo',
     'farhadexchange',

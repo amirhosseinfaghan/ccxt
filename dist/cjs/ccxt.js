@@ -70,6 +70,7 @@ var delta = require('./src/delta.js');
 var deribit = require('./src/deribit.js');
 var digifinex = require('./src/digifinex.js');
 var eterex = require('./src/eterex.js');
+var excoino = require('./src/excoino.js');
 var exir = require('./src/exir.js');
 var exmo = require('./src/exmo.js');
 var farhadexchange = require('./src/farhadexchange.js');
@@ -259,6 +260,7 @@ const exchanges = {
     'deribit': deribit,
     'digifinex': digifinex,
     'eterex': eterex,
+    'excoino': excoino,
     'exir': exir,
     'exmo': exmo,
     'farhadexchange': farhadexchange,
@@ -492,6 +494,7 @@ exports.delta = delta;
 exports.deribit = deribit;
 exports.digifinex = digifinex;
 exports.eterex = eterex;
+exports.excoino = excoino;
 exports.exir = exir;
 exports.exmo = exmo;
 exports.farhadexchange = farhadexchange;
