@@ -104,6 +104,7 @@ import delta from  './src/delta.js'
 import deribit from  './src/deribit.js'
 import digifinex from  './src/digifinex.js'
 import eterex from  './src/eterex.js'
+import excoino from  './src/excoino.js'
 import exir from  './src/exir.js'
 import exmo from  './src/exmo.js'
 import farhadexchange from  './src/farhadexchange.js'
@@ -292,6 +293,7 @@ const exchanges = {
     'deribit':                deribit,
     'digifinex':              digifinex,
     'eterex':                 eterex,
+    'excoino':                excoino,
     'exir':                   exir,
     'exmo':                   exmo,
     'farhadexchange':         farhadexchange,
@@ -569,6 +571,7 @@ export {
     deribit,
     digifinex,
     eterex,
+    excoino,
     exir,
     exmo,
     farhadexchange,
