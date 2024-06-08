@@ -70,6 +70,7 @@ from ccxt.async_support.binancecoinm import binancecoinm                        
 from ccxt.async_support.binanceus import binanceus                              # noqa: F401
 from ccxt.async_support.binanceusdm import binanceusdm                          # noqa: F401
 from ccxt.async_support.bingx import bingx                                      # noqa: F401
+from ccxt.async_support.bit24 import bit24                                      # noqa: F401
 from ccxt.async_support.bit2c import bit2c                                      # noqa: F401
 from ccxt.async_support.bitbank import bitbank                                  # noqa: F401
 from ccxt.async_support.bitbay import bitbay                                    # noqa: F401
@@ -191,6 +192,7 @@ exchanges = [
     'binanceus',
     'binanceusdm',
     'bingx',
+    'bit24',
     'bit2c',
     'bitbank',
     'bitbay',

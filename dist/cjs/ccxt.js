@@ -22,6 +22,7 @@ var binancecoinm = require('./src/binancecoinm.js');
 var binanceus = require('./src/binanceus.js');
 var binanceusdm = require('./src/binanceusdm.js');
 var bingx = require('./src/bingx.js');
+var bit24 = require('./src/bit24.js');
 var bit2c = require('./src/bit2c.js');
 var bitbank = require('./src/bitbank.js');
 var bitbay = require('./src/bitbay.js');
@@ -212,6 +213,7 @@ const exchanges = {
     'binanceus': binanceus,
     'binanceusdm': binanceusdm,
     'bingx': bingx,
+    'bit24': bit24,
     'bit2c': bit2c,
     'bitbank': bitbank,
     'bitbay': bitbay,
@@ -446,6 +448,7 @@ exports.binancecoinm = binancecoinm;
 exports.binanceus = binanceus;
 exports.binanceusdm = binanceusdm;
 exports.bingx = bingx;
+exports.bit24 = bit24;
 exports.bit2c = bit2c;
 exports.bitbank = bitbank;
 exports.bitbay = bitbay;
