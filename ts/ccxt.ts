@@ -114,6 +114,7 @@ import gateio from  './src/gateio.js'
 import gemini from  './src/gemini.js'
 import hitbtc from  './src/hitbtc.js'
 import hitbtc3 from  './src/hitbtc3.js'
+import hitobit from  './src/hitobit.js'
 import hollaex from  './src/hollaex.js'
 import htx from  './src/htx.js'
 import huobi from  './src/huobi.js'
@@ -304,6 +305,7 @@ const exchanges = {
     'gemini':                 gemini,
     'hitbtc':                 hitbtc,
     'hitbtc3':                hitbtc3,
+    'hitobit':                hitobit,
     'hollaex':                hollaex,
     'htx':                    htx,
     'huobi':                  huobi,
@@ -583,6 +585,7 @@ export {
     gemini,
     hitbtc,
     hitbtc3,
+    hitobit,
     hollaex,
     htx,
     huobi,

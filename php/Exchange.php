@@ -452,6 +452,7 @@ class Exchange {
         'gemini',
         'hitbtc',
         'hitbtc3',
+        'hitobit',
         'hollaex',
         'htx',
         'huobi',
