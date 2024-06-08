@@ -128,6 +128,7 @@ from ccxt.async_support.gateio import gateio                                    
 from ccxt.async_support.gemini import gemini                                    # noqa: F401
 from ccxt.async_support.hitbtc import hitbtc                                    # noqa: F401
 from ccxt.async_support.hitbtc3 import hitbtc3                                  # noqa: F401
+from ccxt.async_support.hitobit import hitobit                                  # noqa: F401
 from ccxt.async_support.hollaex import hollaex                                  # noqa: F401
 from ccxt.async_support.htx import htx                                          # noqa: F401
 from ccxt.async_support.huobi import huobi                                      # noqa: F401
@@ -250,6 +251,7 @@ exchanges = [
     'gemini',
     'hitbtc',
     'hitbtc3',
+    'hitobit',
     'hollaex',
     'htx',
     'huobi',
