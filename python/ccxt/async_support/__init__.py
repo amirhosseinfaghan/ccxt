@@ -165,6 +165,7 @@ from ccxt.async_support.probit import probit                                    
 from ccxt.async_support.ramzinex import ramzinex                                # noqa: F401
 from ccxt.async_support.sarrafex import sarrafex                                # noqa: F401
 from ccxt.async_support.tabdeal import tabdeal                                  # noqa: F401
+from ccxt.async_support.tetherland import tetherland                            # noqa: F401
 from ccxt.async_support.timex import timex                                      # noqa: F401
 from ccxt.async_support.tokocrypto import tokocrypto                            # noqa: F401
 from ccxt.async_support.tradeogre import tradeogre                              # noqa: F401
@@ -286,6 +287,7 @@ exchanges = [
     'ramzinex',
     'sarrafex',
     'tabdeal',
+    'tetherland',
     'timex',
     'tokocrypto',
     'tradeogre',

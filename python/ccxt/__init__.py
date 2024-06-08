@@ -185,6 +185,7 @@ from ccxt.probit import probit                                        # noqa: F4
 from ccxt.ramzinex import ramzinex                                    # noqa: F401
 from ccxt.sarrafex import sarrafex                                    # noqa: F401
 from ccxt.tabdeal import tabdeal                                      # noqa: F401
+from ccxt.tetherland import tetherland                                # noqa: F401
 from ccxt.timex import timex                                          # noqa: F401
 from ccxt.tokocrypto import tokocrypto                                # noqa: F401
 from ccxt.tradeogre import tradeogre                                  # noqa: F401
@@ -306,6 +307,7 @@ exchanges = [
     'ramzinex',
     'sarrafex',
     'tabdeal',
+    'tetherland',
     'timex',
     'tokocrypto',
     'tradeogre',

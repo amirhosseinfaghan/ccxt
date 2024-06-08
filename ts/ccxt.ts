@@ -151,6 +151,7 @@ import probit from  './src/probit.js'
 import ramzinex from  './src/ramzinex.js'
 import sarrafex from  './src/sarrafex.js'
 import tabdeal from  './src/tabdeal.js'
+import tetherland from  './src/tetherland.js'
 import timex from  './src/timex.js'
 import tokocrypto from  './src/tokocrypto.js'
 import tradeogre from  './src/tradeogre.js'
@@ -340,6 +341,7 @@ const exchanges = {
     'ramzinex':               ramzinex,
     'sarrafex':               sarrafex,
     'tabdeal':                tabdeal,
+    'tetherland':             tetherland,
     'timex':                  timex,
     'tokocrypto':             tokocrypto,
     'tradeogre':              tradeogre,
@@ -618,6 +620,7 @@ export {
     ramzinex,
     sarrafex,
     tabdeal,
+    tetherland,
     timex,
     tokocrypto,
     tradeogre,
