@@ -117,6 +117,7 @@ var probit = require('./src/probit.js');
 var ramzinex = require('./src/ramzinex.js');
 var sarrafex = require('./src/sarrafex.js');
 var tabdeal = require('./src/tabdeal.js');
+var tetherland = require('./src/tetherland.js');
 var timex = require('./src/timex.js');
 var tokocrypto = require('./src/tokocrypto.js');
 var tradeogre = require('./src/tradeogre.js');
@@ -307,6 +308,7 @@ const exchanges = {
     'ramzinex': ramzinex,
     'sarrafex': sarrafex,
     'tabdeal': tabdeal,
+    'tetherland': tetherland,
     'timex': timex,
     'tokocrypto': tokocrypto,
     'tradeogre': tradeogre,
@@ -541,6 +543,7 @@ exports.probit = probit;
 exports.ramzinex = ramzinex;
 exports.sarrafex = sarrafex;
 exports.tabdeal = tabdeal;
+exports.tetherland = tetherland;
 exports.timex = timex;
 exports.tokocrypto = tokocrypto;
 exports.tradeogre = tradeogre;

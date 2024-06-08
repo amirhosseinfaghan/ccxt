@@ -489,6 +489,7 @@ class Exchange {
         'ramzinex',
         'sarrafex',
         'tabdeal',
+        'tetherland',
         'timex',
         'tokocrypto',
         'tradeogre',
