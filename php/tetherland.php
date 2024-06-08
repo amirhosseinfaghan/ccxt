@@ -114,7 +114,7 @@ class tetherland extends Exchange {
     public function fetch_markets(?array $symbols = null, $params = array ()): array {
         /**
          * retrieves data on all $markets for tetherland
-         * @see https://docs.tetherland.org/#e626e3bd10
+         * @see https://docs.tetherland.com/docs/tetherland/71ca11f41704f-user-api
          * @param {array} [$params] extra parameters specific to the exchange API endpoint
          * @return {array[]} an array of objects representing $market data
          */
@@ -239,7 +239,7 @@ class tetherland extends Exchange {
     public function fetch_tickers(?array $symbols = null, $params = array ()): array {
         /**
          * fetches price tickers for multiple $markets, statistical information calculated over the past 24 hours for each $market
-         * @see https://docs.tetherland.org/#e626e3bd10
+         * @see https://docs.tetherland.com/docs/tetherland/71ca11f41704f-user-api
          * @param {string[]|null} $symbols unified $symbols of the $markets to fetch the ticker for, all $market tickers are returned if not assigned
          * @param {array} [$params] extra parameters specific to the exchange API endpoint
          * @return {array} a dictionary of ~@link https://docs.ccxt.com/#/?id=ticker-structure ticker structures~
@@ -270,7 +270,7 @@ class tetherland extends Exchange {
     public function fetch_ticker(string $symbol, $params = array ()): array {
         /**
          * fetches a price $ticker, a statistical calculation with the information calculated over the past 24 hours for a specific market
-         * @see https://docs.tetherland.org/#e626e3bd10
+         * @see https://docs.tetherland.com/docs/tetherland/71ca11f41704f-user-api
          * @param {string} $symbol unified $symbol of the market to fetch the $ticker for
          * @param {array} [$params] extra parameters specific to the exchange API endpoint
          * @return {array} a ~@link https://docs.ccxt.com/#/?id=$ticker-structure $ticker structure~

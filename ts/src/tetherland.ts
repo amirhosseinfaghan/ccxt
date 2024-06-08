@@ -118,7 +118,7 @@ export default class tetherland extends Exchange {
          * @method
          * @name tetherland#fetchMarkets
          * @description retrieves data on all markets for tetherland
-         * @see https://docs.tetherland.org/#e626e3bd10
+         * @see https://docs.tetherland.com/docs/tetherland/71ca11f41704f-user-api
          * @param {object} [params] extra parameters specific to the exchange API endpoint
          * @returns {object[]} an array of objects representing market data
          */
@@ -245,7 +245,7 @@ export default class tetherland extends Exchange {
          * @method
          * @name tetherland#fetchTickers
          * @description fetches price tickers for multiple markets, statistical information calculated over the past 24 hours for each market
-         * @see https://docs.tetherland.org/#e626e3bd10
+         * @see https://docs.tetherland.com/docs/tetherland/71ca11f41704f-user-api
          * @param {string[]|undefined} symbols unified symbols of the markets to fetch the ticker for, all market tickers are returned if not assigned
          * @param {object} [params] extra parameters specific to the exchange API endpoint
          * @returns {object} a dictionary of [ticker structures]{@link https://docs.ccxt.com/#/?id=ticker-structure}
@@ -278,7 +278,7 @@ export default class tetherland extends Exchange {
          * @method
          * @name tetherland#fetchTicker
          * @description fetches a price ticker, a statistical calculation with the information calculated over the past 24 hours for a specific market
-         * @see https://docs.tetherland.org/#e626e3bd10
+         * @see https://docs.tetherland.com/docs/tetherland/71ca11f41704f-user-api
          * @param {string} symbol unified symbol of the market to fetch the ticker for
          * @param {object} [params] extra parameters specific to the exchange API endpoint
          * @returns {object} a [ticker structure]{@link https://docs.ccxt.com/#/?id=ticker-structure}
