@@ -117,6 +117,7 @@ var poloniex = require('./src/poloniex.js');
 var poloniexfutures = require('./src/poloniexfutures.js');
 var probit = require('./src/probit.js');
 var ramzinex = require('./src/ramzinex.js');
+var sarmayex = require('./src/sarmayex.js');
 var sarrafex = require('./src/sarrafex.js');
 var tabdeal = require('./src/tabdeal.js');
 var tetherland = require('./src/tetherland.js');
@@ -310,6 +311,7 @@ const exchanges = {
     'poloniexfutures': poloniexfutures,
     'probit': probit,
     'ramzinex': ramzinex,
+    'sarmayex': sarmayex,
     'sarrafex': sarrafex,
     'tabdeal': tabdeal,
     'tetherland': tetherland,
@@ -547,6 +549,7 @@ exports.poloniex = poloniex;
 exports.poloniexfutures = poloniexfutures;
 exports.probit = probit;
 exports.ramzinex = ramzinex;
+exports.sarmayex = sarmayex;
 exports.sarrafex = sarrafex;
 exports.tabdeal = tabdeal;
 exports.tetherland = tetherland;
