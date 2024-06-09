@@ -12,6 +12,7 @@ var Exchange = require('./src/base/Exchange.js');
 var Precise = require('./src/base/Precise.js');
 var functions = require('./src/base/functions.js');
 var errors = require('./src/base/errors.js');
+var abantether = require('./src/abantether.js');
 var ace = require('./src/ace.js');
 var alpaca = require('./src/alpaca.js');
 var arzplus = require('./src/arzplus.js');
@@ -206,6 +207,7 @@ var woofipro$1 = require('./src/pro/woofipro.js');
 const version = '4.3.26';
 Exchange["default"].ccxtVersion = version;
 const exchanges = {
+    'abantether': abantether,
     'ace': ace,
     'alpaca': alpaca,
     'arzplus': arzplus,
@@ -444,6 +446,7 @@ exports.ProxyError = errors.ProxyError;
 exports.RateLimitExceeded = errors.RateLimitExceeded;
 exports.RequestTimeout = errors.RequestTimeout;
 exports.errors = errors;
+exports.abantether = abantether;
 exports.ace = ace;
 exports.alpaca = alpaca;
 exports.arzplus = arzplus;

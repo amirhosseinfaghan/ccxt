@@ -80,6 +80,7 @@ from ccxt.base.errors import InvalidNonce                             # noqa: F4
 from ccxt.base.errors import RequestTimeout                           # noqa: F401
 from ccxt.base.errors import error_hierarchy                          # noqa: F401
 
+from ccxt.abantether import abantether                                # noqa: F401
 from ccxt.ace import ace                                              # noqa: F401
 from ccxt.alpaca import alpaca                                        # noqa: F401
 from ccxt.arzplus import arzplus                                      # noqa: F401
@@ -205,6 +206,7 @@ from ccxt.zaif import zaif                                            # noqa: F4
 from ccxt.zonda import zonda                                          # noqa: F401
 
 exchanges = [
+    'abantether',
     'ace',
     'alpaca',
     'arzplus',
