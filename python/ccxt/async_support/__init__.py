@@ -60,6 +60,7 @@ from ccxt.base.errors import RequestTimeout                           # noqa: F4
 from ccxt.base.errors import error_hierarchy                          # noqa: F401
 
 
+from ccxt.async_support.abantether import abantether                            # noqa: F401
 from ccxt.async_support.ace import ace                                          # noqa: F401
 from ccxt.async_support.alpaca import alpaca                                    # noqa: F401
 from ccxt.async_support.arzplus import arzplus                                  # noqa: F401
@@ -185,6 +186,7 @@ from ccxt.async_support.zaif import zaif                                        
 from ccxt.async_support.zonda import zonda                                      # noqa: F401
 
 exchanges = [
+    'abantether',
     'ace',
     'alpaca',
     'arzplus',

@@ -46,6 +46,7 @@ const version = '4.3.26';
 
 //-----------------------------------------------------------------------------
 
+import abantether from  './src/abantether.js'
 import ace from  './src/ace.js'
 import alpaca from  './src/alpaca.js'
 import arzplus from  './src/arzplus.js'
@@ -239,6 +240,7 @@ import wooPro from  './src/pro/woo.js'
 import woofiproPro from  './src/pro/woofipro.js'
 
 const exchanges = {
+    'abantether':             abantether,
     'ace':                    ace,
     'alpaca':                 alpaca,
     'arzplus':                arzplus,
@@ -521,6 +523,7 @@ export {
     Option,
     OptionChain,
     Conversion,
+    abantether,
     ace,
     alpaca,
     arzplus,
