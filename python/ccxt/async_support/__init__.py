@@ -165,6 +165,7 @@ from ccxt.async_support.poloniex import poloniex                                
 from ccxt.async_support.poloniexfutures import poloniexfutures                  # noqa: F401
 from ccxt.async_support.probit import probit                                    # noqa: F401
 from ccxt.async_support.ramzinex import ramzinex                                # noqa: F401
+from ccxt.async_support.sarmayex import sarmayex                                # noqa: F401
 from ccxt.async_support.sarrafex import sarrafex                                # noqa: F401
 from ccxt.async_support.tabdeal import tabdeal                                  # noqa: F401
 from ccxt.async_support.tetherland import tetherland                            # noqa: F401
@@ -289,6 +290,7 @@ exchanges = [
     'poloniexfutures',
     'probit',
     'ramzinex',
+    'sarmayex',
     'sarrafex',
     'tabdeal',
     'tetherland',

@@ -489,6 +489,7 @@ class Exchange {
         'poloniexfutures',
         'probit',
         'ramzinex',
+        'sarmayex',
         'sarrafex',
         'tabdeal',
         'tetherland',
