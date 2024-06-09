@@ -463,6 +463,7 @@ class Exchange {
         'idex',
         'independentreserve',
         'indodax',
+        'jibitex',
         'kraken',
         'krakenfutures',
         'kucoin',

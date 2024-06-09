@@ -139,6 +139,7 @@ from ccxt.async_support.hyperliquid import hyperliquid                          
 from ccxt.async_support.idex import idex                                        # noqa: F401
 from ccxt.async_support.independentreserve import independentreserve            # noqa: F401
 from ccxt.async_support.indodax import indodax                                  # noqa: F401
+from ccxt.async_support.jibitex import jibitex                                  # noqa: F401
 from ccxt.async_support.kraken import kraken                                    # noqa: F401
 from ccxt.async_support.krakenfutures import krakenfutures                      # noqa: F401
 from ccxt.async_support.kucoin import kucoin                                    # noqa: F401
@@ -265,6 +266,7 @@ exchanges = [
     'idex',
     'independentreserve',
     'indodax',
+    'jibitex',
     'kraken',
     'krakenfutures',
     'kucoin',

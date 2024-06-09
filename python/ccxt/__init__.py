@@ -159,6 +159,7 @@ from ccxt.hyperliquid import hyperliquid                              # noqa: F4
 from ccxt.idex import idex                                            # noqa: F401
 from ccxt.independentreserve import independentreserve                # noqa: F401
 from ccxt.indodax import indodax                                      # noqa: F401
+from ccxt.jibitex import jibitex                                      # noqa: F401
 from ccxt.kraken import kraken                                        # noqa: F401
 from ccxt.krakenfutures import krakenfutures                          # noqa: F401
 from ccxt.kucoin import kucoin                                        # noqa: F401
@@ -285,6 +286,7 @@ exchanges = [
     'idex',
     'independentreserve',
     'indodax',
+    'jibitex',
     'kraken',
     'krakenfutures',
     'kucoin',

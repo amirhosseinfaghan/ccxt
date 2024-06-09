@@ -91,6 +91,7 @@ var hyperliquid = require('./src/hyperliquid.js');
 var idex = require('./src/idex.js');
 var independentreserve = require('./src/independentreserve.js');
 var indodax = require('./src/indodax.js');
+var jibitex = require('./src/jibitex.js');
 var kraken = require('./src/kraken.js');
 var krakenfutures = require('./src/krakenfutures.js');
 var kucoin = require('./src/kucoin.js');
@@ -286,6 +287,7 @@ const exchanges = {
     'idex': idex,
     'independentreserve': independentreserve,
     'indodax': indodax,
+    'jibitex': jibitex,
     'kraken': kraken,
     'krakenfutures': krakenfutures,
     'kucoin': kucoin,
@@ -525,6 +527,7 @@ exports.hyperliquid = hyperliquid;
 exports.idex = idex;
 exports.independentreserve = independentreserve;
 exports.indodax = indodax;
+exports.jibitex = jibitex;
 exports.kraken = kraken;
 exports.krakenfutures = krakenfutures;
 exports.kucoin = kucoin;
