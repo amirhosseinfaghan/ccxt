@@ -48,6 +48,7 @@ const version = '4.3.26';
 
 import ace from  './src/ace.js'
 import alpaca from  './src/alpaca.js'
+import arzplus from  './src/arzplus.js'
 import ascendex from  './src/ascendex.js'
 import bequant from  './src/bequant.js'
 import bigone from  './src/bigone.js'
@@ -239,6 +240,7 @@ import woofiproPro from  './src/pro/woofipro.js'
 const exchanges = {
     'ace':                    ace,
     'alpaca':                 alpaca,
+    'arzplus':                arzplus,
     'ascendex':               ascendex,
     'bequant':                bequant,
     'bigone':                 bigone,
@@ -519,6 +521,7 @@ export {
     Conversion,
     ace,
     alpaca,
+    arzplus,
     ascendex,
     bequant,
     bigone,

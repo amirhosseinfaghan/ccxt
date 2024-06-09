@@ -14,6 +14,7 @@ var functions = require('./src/base/functions.js');
 var errors = require('./src/base/errors.js');
 var ace = require('./src/ace.js');
 var alpaca = require('./src/alpaca.js');
+var arzplus = require('./src/arzplus.js');
 var ascendex = require('./src/ascendex.js');
 var bequant = require('./src/bequant.js');
 var bigone = require('./src/bigone.js');
@@ -206,6 +207,7 @@ Exchange["default"].ccxtVersion = version;
 const exchanges = {
     'ace': ace,
     'alpaca': alpaca,
+    'arzplus': arzplus,
     'ascendex': ascendex,
     'bequant': bequant,
     'bigone': bigone,
@@ -442,6 +444,7 @@ exports.RequestTimeout = errors.RequestTimeout;
 exports.errors = errors;
 exports.ace = ace;
 exports.alpaca = alpaca;
+exports.arzplus = arzplus;
 exports.ascendex = ascendex;
 exports.bequant = bequant;
 exports.bigone = bigone;
