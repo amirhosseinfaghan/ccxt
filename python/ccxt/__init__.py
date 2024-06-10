@@ -83,6 +83,7 @@ from ccxt.base.errors import error_hierarchy                          # noqa: F4
 from ccxt.abantether import abantether                                # noqa: F401
 from ccxt.ace import ace                                              # noqa: F401
 from ccxt.alpaca import alpaca                                        # noqa: F401
+from ccxt.arzinja import arzinja                                      # noqa: F401
 from ccxt.arzplus import arzplus                                      # noqa: F401
 from ccxt.ascendex import ascendex                                    # noqa: F401
 from ccxt.bequant import bequant                                      # noqa: F401
@@ -210,6 +211,7 @@ exchanges = [
     'abantether',
     'ace',
     'alpaca',
+    'arzinja',
     'arzplus',
     'ascendex',
     'bequant',

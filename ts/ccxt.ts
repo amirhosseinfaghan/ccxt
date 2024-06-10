@@ -49,6 +49,7 @@ const version = '4.3.26';
 import abantether from  './src/abantether.js'
 import ace from  './src/ace.js'
 import alpaca from  './src/alpaca.js'
+import arzinja from  './src/arzinja.js'
 import arzplus from  './src/arzplus.js'
 import ascendex from  './src/ascendex.js'
 import bequant from  './src/bequant.js'
@@ -244,6 +245,7 @@ const exchanges = {
     'abantether':             abantether,
     'ace':                    ace,
     'alpaca':                 alpaca,
+    'arzinja':                arzinja,
     'arzplus':                arzplus,
     'ascendex':               ascendex,
     'bequant':                bequant,
@@ -528,6 +530,7 @@ export {
     abantether,
     ace,
     alpaca,
+    arzinja,
     arzplus,
     ascendex,
     bequant,
