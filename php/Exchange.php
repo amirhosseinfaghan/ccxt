@@ -387,6 +387,7 @@ class Exchange {
         'abantether',
         'ace',
         'alpaca',
+        'arzinja',
         'arzplus',
         'ascendex',
         'bequant',

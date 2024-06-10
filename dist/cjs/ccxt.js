@@ -15,6 +15,7 @@ var errors = require('./src/base/errors.js');
 var abantether = require('./src/abantether.js');
 var ace = require('./src/ace.js');
 var alpaca = require('./src/alpaca.js');
+var arzinja = require('./src/arzinja.js');
 var arzplus = require('./src/arzplus.js');
 var ascendex = require('./src/ascendex.js');
 var bequant = require('./src/bequant.js');
@@ -211,6 +212,7 @@ const exchanges = {
     'abantether': abantether,
     'ace': ace,
     'alpaca': alpaca,
+    'arzinja': arzinja,
     'arzplus': arzplus,
     'ascendex': ascendex,
     'bequant': bequant,
@@ -451,6 +453,7 @@ exports.errors = errors;
 exports.abantether = abantether;
 exports.ace = ace;
 exports.alpaca = alpaca;
+exports.arzinja = arzinja;
 exports.arzplus = arzplus;
 exports.ascendex = ascendex;
 exports.bequant = bequant;
