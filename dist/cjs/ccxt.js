@@ -127,6 +127,7 @@ var tetherland = require('./src/tetherland.js');
 var timex = require('./src/timex.js');
 var tokocrypto = require('./src/tokocrypto.js');
 var tradeogre = require('./src/tradeogre.js');
+var twox = require('./src/twox.js');
 var ubitex = require('./src/ubitex.js');
 var upbit = require('./src/upbit.js');
 var wallex = require('./src/wallex.js');
@@ -324,6 +325,7 @@ const exchanges = {
     'timex': timex,
     'tokocrypto': tokocrypto,
     'tradeogre': tradeogre,
+    'twox': twox,
     'ubitex': ubitex,
     'upbit': upbit,
     'wallex': wallex,
@@ -565,6 +567,7 @@ exports.tetherland = tetherland;
 exports.timex = timex;
 exports.tokocrypto = tokocrypto;
 exports.tradeogre = tradeogre;
+exports.twox = twox;
 exports.ubitex = ubitex;
 exports.upbit = upbit;
 exports.wallex = wallex;

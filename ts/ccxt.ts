@@ -161,6 +161,7 @@ import tetherland from  './src/tetherland.js'
 import timex from  './src/timex.js'
 import tokocrypto from  './src/tokocrypto.js'
 import tradeogre from  './src/tradeogre.js'
+import twox from  './src/twox.js'
 import ubitex from  './src/ubitex.js'
 import upbit from  './src/upbit.js'
 import wallex from  './src/wallex.js'
@@ -357,6 +358,7 @@ const exchanges = {
     'timex':                  timex,
     'tokocrypto':             tokocrypto,
     'tradeogre':              tradeogre,
+    'twox':                   twox,
     'ubitex':                 ubitex,
     'upbit':                  upbit,
     'wallex':                 wallex,
@@ -642,6 +644,7 @@ export {
     timex,
     tokocrypto,
     tradeogre,
+    twox,
     ubitex,
     upbit,
     wallex,

@@ -499,6 +499,7 @@ class Exchange {
         'timex',
         'tokocrypto',
         'tradeogre',
+        'twox',
         'ubitex',
         'upbit',
         'wallex',
