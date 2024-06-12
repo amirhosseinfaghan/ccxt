@@ -145,6 +145,7 @@ from ccxt.eterex import eterex                                        # noqa: F4
 from ccxt.excoino import excoino                                      # noqa: F401
 from ccxt.exir import exir                                            # noqa: F401
 from ccxt.exmo import exmo                                            # noqa: F401
+from ccxt.exnovin import exnovin                                      # noqa: F401
 from ccxt.farhadexchange import farhadexchange                        # noqa: F401
 from ccxt.fmfwio import fmfwio                                        # noqa: F401
 from ccxt.gate import gate                                            # noqa: F401
@@ -275,6 +276,7 @@ exchanges = [
     'excoino',
     'exir',
     'exmo',
+    'exnovin',
     'farhadexchange',
     'fmfwio',
     'gate',

@@ -111,6 +111,7 @@ import eterex from  './src/eterex.js'
 import excoino from  './src/excoino.js'
 import exir from  './src/exir.js'
 import exmo from  './src/exmo.js'
+import exnovin from  './src/exnovin.js'
 import farhadexchange from  './src/farhadexchange.js'
 import fmfwio from  './src/fmfwio.js'
 import gate from  './src/gate.js'
@@ -309,6 +310,7 @@ const exchanges = {
     'excoino':                excoino,
     'exir':                   exir,
     'exmo':                   exmo,
+    'exnovin':                exnovin,
     'farhadexchange':         farhadexchange,
     'fmfwio':                 fmfwio,
     'gate':                   gate,
@@ -596,6 +598,7 @@ export {
     excoino,
     exir,
     exmo,
+    exnovin,
     farhadexchange,
     fmfwio,
     gate,
