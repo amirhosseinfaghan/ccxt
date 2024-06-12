@@ -48,6 +48,7 @@ const version = '4.3.26';
 
 import abantether from  './src/abantether.js'
 import ace from  './src/ace.js'
+import afratether from  './src/afratether.js'
 import alpaca from  './src/alpaca.js'
 import arzinja from  './src/arzinja.js'
 import arzplus from  './src/arzplus.js'
@@ -245,6 +246,7 @@ import woofiproPro from  './src/pro/woofipro.js'
 const exchanges = {
     'abantether':             abantether,
     'ace':                    ace,
+    'afratether':             afratether,
     'alpaca':                 alpaca,
     'arzinja':                arzinja,
     'arzplus':                arzplus,
@@ -531,6 +533,7 @@ export {
     Conversion,
     abantether,
     ace,
+    afratether,
     alpaca,
     arzinja,
     arzplus,

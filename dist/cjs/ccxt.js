@@ -14,6 +14,7 @@ var functions = require('./src/base/functions.js');
 var errors = require('./src/base/errors.js');
 var abantether = require('./src/abantether.js');
 var ace = require('./src/ace.js');
+var afratether = require('./src/afratether.js');
 var alpaca = require('./src/alpaca.js');
 var arzinja = require('./src/arzinja.js');
 var arzplus = require('./src/arzplus.js');
@@ -212,6 +213,7 @@ Exchange["default"].ccxtVersion = version;
 const exchanges = {
     'abantether': abantether,
     'ace': ace,
+    'afratether': afratether,
     'alpaca': alpaca,
     'arzinja': arzinja,
     'arzplus': arzplus,
@@ -454,6 +456,7 @@ exports.RequestTimeout = errors.RequestTimeout;
 exports.errors = errors;
 exports.abantether = abantether;
 exports.ace = ace;
+exports.afratether = afratether;
 exports.alpaca = alpaca;
 exports.arzinja = arzinja;
 exports.arzplus = arzplus;
