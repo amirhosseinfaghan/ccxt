@@ -449,6 +449,7 @@ class Exchange {
         'excoino',
         'exir',
         'exmo',
+        'exnovin',
         'farhadexchange',
         'fmfwio',
         'gate',

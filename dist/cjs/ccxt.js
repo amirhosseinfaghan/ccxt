@@ -77,6 +77,7 @@ var eterex = require('./src/eterex.js');
 var excoino = require('./src/excoino.js');
 var exir = require('./src/exir.js');
 var exmo = require('./src/exmo.js');
+var exnovin = require('./src/exnovin.js');
 var farhadexchange = require('./src/farhadexchange.js');
 var fmfwio = require('./src/fmfwio.js');
 var gate = require('./src/gate.js');
@@ -276,6 +277,7 @@ const exchanges = {
     'excoino': excoino,
     'exir': exir,
     'exmo': exmo,
+    'exnovin': exnovin,
     'farhadexchange': farhadexchange,
     'fmfwio': fmfwio,
     'gate': gate,
@@ -519,6 +521,7 @@ exports.eterex = eterex;
 exports.excoino = excoino;
 exports.exir = exir;
 exports.exmo = exmo;
+exports.exnovin = exnovin;
 exports.farhadexchange = farhadexchange;
 exports.fmfwio = fmfwio;
 exports.gate = gate;

@@ -125,6 +125,7 @@ from ccxt.async_support.eterex import eterex                                    
 from ccxt.async_support.excoino import excoino                                  # noqa: F401
 from ccxt.async_support.exir import exir                                        # noqa: F401
 from ccxt.async_support.exmo import exmo                                        # noqa: F401
+from ccxt.async_support.exnovin import exnovin                                  # noqa: F401
 from ccxt.async_support.farhadexchange import farhadexchange                    # noqa: F401
 from ccxt.async_support.fmfwio import fmfwio                                    # noqa: F401
 from ccxt.async_support.gate import gate                                        # noqa: F401
@@ -255,6 +256,7 @@ exchanges = [
     'excoino',
     'exir',
     'exmo',
+    'exnovin',
     'farhadexchange',
     'fmfwio',
     'gate',
