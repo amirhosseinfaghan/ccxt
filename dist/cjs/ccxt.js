@@ -36,6 +36,7 @@ var bitfinex2 = require('./src/bitfinex2.js');
 var bitflyer = require('./src/bitflyer.js');
 var bitget = require('./src/bitget.js');
 var bithumb = require('./src/bithumb.js');
+var bitimen = require('./src/bitimen.js');
 var bitir = require('./src/bitir.js');
 var bitmart = require('./src/bitmart.js');
 var bitmex = require('./src/bitmex.js');
@@ -236,6 +237,7 @@ const exchanges = {
     'bitflyer': bitflyer,
     'bitget': bitget,
     'bithumb': bithumb,
+    'bitimen': bitimen,
     'bitir': bitir,
     'bitmart': bitmart,
     'bitmex': bitmex,
@@ -480,6 +482,7 @@ exports.bitfinex2 = bitfinex2;
 exports.bitflyer = bitflyer;
 exports.bitget = bitget;
 exports.bithumb = bithumb;
+exports.bitimen = bitimen;
 exports.bitir = bitir;
 exports.bitmart = bitmart;
 exports.bitmex = bitmex;
